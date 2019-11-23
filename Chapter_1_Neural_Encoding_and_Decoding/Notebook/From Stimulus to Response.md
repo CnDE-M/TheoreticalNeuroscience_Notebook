@@ -160,7 +160,7 @@ Symbol "<>" refers to averaging over trials.
 r(t) and <ρ(t)> are of great similarity. r(t) is the averaged value of <ρ(t)> in [t, t+Δt] interval. If Δt is sufficiently big, while <ρ(t)> is in shape of great peaks, r(t) is a scalar shape. 
 
 <div align="center">
-	<img width="500" height="285" src="https://github.com/CnDE-M/TheoreticalNeuroscience_Notebook/blob/master/Chapter_1_Neural_Encoding_and_Decoding/svg/r(t)_rho(t).png"/>
+	<img width="500" height="285" src="https://github.com/CnDE-M/TheoreticalNeuroscience_Notebook/blob/master/Chapter_1_Neural_Encoding_and_Decoding/svg/r(t)_rho(t).jpg"/>
 </div>
 
 In this case, r(t) could also be interpreted as density of neural response along time axis.
@@ -182,7 +182,7 @@ For the total time range, the integral value of two function are equal (no matte
 	<a href="https://www.codecogs.com/eqnedit.php?latex=\int&space;h(\tau)&space;\cdot&space;\langle&space;\rho(\tau)&space;\rangle&space;\cdot&space;\tau&space;=&space;\int&space;h(\tau)&space;\cdot&space;r(\tau)&space;\cdot&space;\tau&space;\quad&space;\Delta&space;t&space;\rightarrow&space;0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\int&space;h(\tau)&space;\cdot&space;\langle&space;\rho(\tau)&space;\rangle&space;\cdot&space;\tau&space;=&space;\int&space;h(\tau)&space;\cdot&space;r(\tau)&space;\cdot&space;\tau&space;\quad&space;\Delta&space;t&space;\rightarrow&space;0" title="\int h(\tau) \cdot \langle \rho(\tau) \rangle \cdot \tau = \int h(\tau) \cdot r(\tau) \cdot \tau \quad \Delta t \rightarrow 0" /></a>
 </p>
 
-If \delta t is too big, r(t) and <\rho(t)> will add sufficiently different contribution to h(t).
+If Δt is big sufficiently, r(t) and <ρ(t)> will add different contribution to h(t).
 
 -----------------
 
