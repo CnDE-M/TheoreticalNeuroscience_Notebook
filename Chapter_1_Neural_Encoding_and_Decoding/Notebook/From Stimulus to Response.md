@@ -160,7 +160,7 @@ Symbol "<>" refers to averaging over trials.
 r(t) and <ρ(t)> are of great similarity. r(t) is the averaged value of <ρ(t)> in [t, t+Δt] interval. If Δt is sufficiently big, while <ρ(t)> is in shape of great peaks, r(t) is a scalar shape. 
 
 <div align="center">
-	<img width="500" height="285" src="https://github.com/CnDE-M/TheoreticalNeuroscience_Notebook/blob/master/Chapter_1_Neural_Encoding_and_Decoding/svg/r(t)_rho(t).jpg"/>
+	<img width="600" height="450" src="https://github.com/CnDE-M/TheoreticalNeuroscience_Notebook/blob/master/Chapter_1_Neural_Encoding_and_Decoding/svg/r(t)_rho(t).jpg"/>
 </div>
 
 In this case, r(t) could also be interpreted as density of neural response along time axis.
@@ -189,4 +189,5 @@ If Δt is big sufficiently, r(t) and <ρ(t)> will add different contribution to 
 
 # Reference:
 *[1] Dayan P, Abbott L F. Theoretical neuroscience[M]. Cambridge, MA: MIT Press, 2001: 8-11*
+
 *[2] Coen-Cagli R, Solomon S S. Relating divisive normalization to neuronal response variability[J]. Journal of Neuroscience, 2019, 39(37): 7344-7356.*
