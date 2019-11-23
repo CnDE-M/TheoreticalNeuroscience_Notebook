@@ -165,7 +165,8 @@ r(t) and <ρ(t)> are of great similarity. r(t) is the averaged value of <ρ(t)> 
 
 In this case, r(t) could also be interpreted as density of neural response along time axis.
 
--------------------
+
+
 
 For the total time range, the integral value of two function are equal (no matter the size of Δt):
 
