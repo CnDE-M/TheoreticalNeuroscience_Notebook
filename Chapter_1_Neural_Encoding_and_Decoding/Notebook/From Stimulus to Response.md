@@ -4,9 +4,9 @@ Expression for neural response
 ## Expression Summary
 
 **Neural Response Function:**
-<!--\langle \rho(t) \rangle = \frac{1}{m}\sum_{j=1}^{m}\rho^j(t) -->
+<!--\langle \rho(t) \rangle = \frac{1}{m}\sum_{j=1}^{m}\rho^j(t) = \frac{1}{m}\sum_{j=1}^{m} \sum_{i=1}^{n} \delta(t-t_i^j), \quad t\in[0,T]  -->
 <p align="center">
-<a href="https://www.codecogs.com/eqnedit.php?latex=\langle&space;\rho(t)&space;\rangle&space;=&space;\frac{1}{m}\sum_{j=1}^{m}\rho^j(t)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\langle&space;\rho(t)&space;\rangle&space;=&space;\frac{1}{m}\sum_{j=1}^{m}\rho^j(t)" title="\langle \rho(t) \rangle = \frac{1}{m}\sum_{j=1}^{m}\rho^j(t)" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\langle&space;\rho(t)&space;\rangle&space;=&space;\frac{1}{m}\sum_{j=1}^{m}\rho^j(t)&space;=&space;\frac{1}{m}\sum_{j=1}^{m}&space;\sum_{i=1}^{n}&space;\delta(t-t_i^j),&space;\quad&space;t\in[0,T]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\langle&space;\rho(t)&space;\rangle&space;=&space;\frac{1}{m}\sum_{j=1}^{m}\rho^j(t)&space;=&space;\frac{1}{m}\sum_{j=1}^{m}&space;\sum_{i=1}^{n}&space;\delta(t-t_i^j),&space;\quad&space;t\in[0,T]" title="\langle \rho(t) \rangle = \frac{1}{m}\sum_{j=1}^{m}\rho^j(t) = \frac{1}{m}\sum_{j=1}^{m} \sum_{i=1}^{n} \delta(t-t_i^j), \quad t\in[0,T]" /></a>
 </p>
 
 **Time-dependent Firing Rate**
