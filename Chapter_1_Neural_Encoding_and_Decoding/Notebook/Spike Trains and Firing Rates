@@ -1,7 +1,23 @@
-# From Stimulus to Response <sup>[1]</sup>
+# Spike Trains and Firing Rates <sup>[1]</sup>
 Expression for neural response
 
+**Presupposition:**
+
+1. Action potentials can vary in **duration(about 1 ms), amplitude and shape**. 
+2. In the following presentation, all action potentials(spikes) are treated as **identical stereotyped events**, occuration of an action potential is present as a time point **t<sub>i</sub>**. 
+
+<div align="center">
+	<img width="1400" height="120" src="https://github.com/CnDE-M/TheoreticalNeuroscience_Notebook/blob/master/Chapter_1_Neural_Encoding_and_Decoding/svg/Simulated_Presupposed_Spikes.jpg"/>
+</div>
+
+
+
 ## Expression Summary
+
+1. Dirac Function δ(x): occurrance of action potentials;
+
+2. Firing rate function r(t): probalistic or statistical occurance of spikes at each time t (or interval [t, t+Δt]);
+
 
 **Neural Response Function:**
 <!--\langle \rho(t) \rangle = \frac{1}{m}\sum_{j=1}^{m}\rho^j(t) = \frac{1}{m}\sum_{j=1}^{m} \sum_{i=1}^{n} \delta(t-t_i^j), \quad t\in[0,T]  -->
@@ -40,12 +56,6 @@ Average firing rate over a long time period(any time period or entire trial dura
 <p align="center">
 	<a href="https://www.codecogs.com/eqnedit.php?latex=\langle&space;r&space;\rangle&space;=&space;\frac{r}{m}&space;=&space;\frac{&space;\langle&space;n&space;\rangle}{T}&space;=&space;\frac{1}{T}&space;\int_{0}^{T}&space;\langle&space;\rho(t)&space;\rangle&space;\cdot&space;dt&space;=&space;\frac{1}{T}&space;\int_{0}^{T}&space;r(t)&space;\cdot&space;dt" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\langle&space;r&space;\rangle&space;=&space;\frac{r}{m}&space;=&space;\frac{&space;\langle&space;n&space;\rangle}{T}&space;=&space;\frac{1}{T}&space;\int_{0}^{T}&space;\langle&space;\rho(t)&space;\rangle&space;\cdot&space;dt&space;=&space;\frac{1}{T}&space;\int_{0}^{T}&space;r(t)&space;\cdot&space;dt" title="\langle r \rangle = \frac{r}{m} = \frac{ \langle n \rangle}{T} = \frac{1}{T} \int_{0}^{T} \langle \rho(t) \rangle \cdot dt = \frac{1}{T} \int_{0}^{T} r(t) \cdot dt" /></a>
 </p>
-
-
-**Presupposition:**
-
-1. Action potential can vary in duration, amplitude and shape. In the following presentation, they are treated as **identical stereotyped events**.
-2. We ignore the brief duration of an action potential(about 1 ms). Occuration of an action potential is present as a time point **t<sub>i</sub>**. 
 
 
 ## 1. Dirak Delta Function:
@@ -144,9 +154,9 @@ Symbol "<>" refers to averaging over trials.
 	<a href="https://www.codecogs.com/eqnedit.php?latex=\langle&space;\rho(t)&space;\rangle&space;=&space;\frac{1}{m}\sum_{j=1}^{m}\rho^j(t)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\langle&space;\rho(t)&space;\rangle&space;=&space;\frac{1}{m}\sum_{j=1}^{m}\rho^j(t)" title="\langle \rho(t) \rangle = \frac{1}{m}\sum_{j=1}^{m}\rho^j(t)" /></a>
 </p>
 
-#### 4. Count spike rate in short \delta t inteval;
+#### 4. Count spike rate in Δt intevals;
 
-#### 5. average **firing rate** at time t over \delta t inteval:
+#### 5. For every t, average spike rate over Δt interval:
 
 **time-dependent firing rate**
 
